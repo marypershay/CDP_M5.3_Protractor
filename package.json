@@ -1,0 +1,30 @@
+{
+  "name": "testprotractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^5.1.0",
+    "gulp":"^3.9.1",
+    "gulp-util": "^3.0.8",
+    "gulp-angular-protractor": "^1.0.0"
+  },
+  "scripts": {
+    "it-run-gulp": "gulp default",
+    "it-run-protractor": "protractor protNPM.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marypershay/CDP_M5.3_Protractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marypershay/CDP_M5.3_Protractor/issues"
+  },
+  "homepage": "https://github.com/marypershay/CDP_M5.3_Protractor#readme"
+}
